@@ -1,8 +1,7 @@
-package estudo.alura.springboot.med.voll.api.endereco;
+package estudo.alura.springboot.med.voll.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

@@ -1,6 +1,6 @@
-package estudo.alura.springboot.med.voll.api.medico;
+package estudo.alura.springboot.med.voll.api.domain.medico;
 
-import estudo.alura.springboot.med.voll.api.endereco.Endereco;
+import estudo.alura.springboot.med.voll.api.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

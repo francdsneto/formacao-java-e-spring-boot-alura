@@ -9,6 +9,15 @@ spring:
       hibernate:
         format_sql: true
 
+server:
+  error:
+    include-stacktrace: never
+
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:123456789}
+
 ## Usado para ver os parâmetros nas consultas SQL
 logging:
   level:

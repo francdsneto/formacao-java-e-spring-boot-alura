@@ -1,4 +1,4 @@
-package estudo.alura.springboot.med.voll.api.endereco;
+package estudo.alura.springboot.med.voll.api.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

@@ -1,6 +1,6 @@
-package estudo.alura.springboot.med.voll.api.medico;
+package estudo.alura.springboot.med.voll.api.domain.medico;
 
-import estudo.alura.springboot.med.voll.api.endereco.DadosEndereco;
+import estudo.alura.springboot.med.voll.api.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 
