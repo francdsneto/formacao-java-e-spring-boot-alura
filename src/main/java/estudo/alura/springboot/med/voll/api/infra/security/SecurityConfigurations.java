@@ -29,8 +29,9 @@ public class SecurityConfigurations {
                 .authorizeHttpRequests(authorize -> {
                     authorize
                         .requestMatchers(HttpMethod.POST, "/login")
-                            .permitAll();
-                    authorize
+                            .permitAll()
+                        .requestMatchers("/v3/api-docs/**","/swagger-ui.html","/swagger-ui/**")
+                            .permitAll()
                         .anyRequest()
                             .authenticated();
                 })

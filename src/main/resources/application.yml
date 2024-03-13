@@ -18,14 +18,5 @@ api:
     token:
       secret: ${JWT_SECRET:123456789}
 
-## Usado para ver os parâmetros nas consultas SQL
-logging:
-  level:
-    org:
-      hibernate:
-        type:
-          descriptor:
-            sql: trace
-
 
 
